@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="15.1">
-  <zoom_level>8</zoom_level>
+  <zoom_level>6</zoom_level>
   <element>
     <id>UMLActor</id>
     <coordinates>
-      <x>0</x>
-      <y>392</y>
-      <w>96</w>
-      <h>88</h>
+      <x>252</x>
+      <y>396</y>
+      <w>72</w>
+      <h>66</h>
     </coordinates>
     <panel_attributes>Rodzic/Opiekun</panel_attributes>
     <additional_attributes/>
@@ -15,10 +15,10 @@
   <element>
     <id>UMLActor</id>
     <coordinates>
-      <x>1296</x>
-      <y>712</y>
-      <w>48</w>
-      <h>88</h>
+      <x>1224</x>
+      <y>636</y>
+      <w>36</w>
+      <h>66</h>
     </coordinates>
     <panel_attributes>Trener</panel_attributes>
     <additional_attributes/>
@@ -26,10 +26,10 @@
   <element>
     <id>UMLActor</id>
     <coordinates>
-      <x>1384</x>
-      <y>80</y>
-      <w>48</w>
-      <h>88</h>
+      <x>1290</x>
+      <y>162</y>
+      <w>36</w>
+      <h>66</h>
     </coordinates>
     <panel_attributes>Zarząd</panel_attributes>
     <additional_attributes/>
@@ -37,10 +37,10 @@
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>280</x>
-      <y>312</y>
-      <w>160</w>
-      <h>48</h>
+      <x>462</x>
+      <y>336</y>
+      <w>120</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>Opłacenie składki</panel_attributes>
     <additional_attributes/>
@@ -48,10 +48,10 @@
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>248</x>
-      <y>384</y>
-      <w>232</w>
-      <h>48</h>
+      <x>438</x>
+      <y>390</y>
+      <w>174</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>Zarządzanie powołaniem na mecz</panel_attributes>
     <additional_attributes/>
@@ -59,10 +59,10 @@
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>632</x>
-      <y>464</y>
-      <w>128</w>
-      <h>72</h>
+      <x>732</x>
+      <y>432</y>
+      <w>96</w>
+      <h>54</h>
     </coordinates>
     <panel_attributes>Logowanie</panel_attributes>
     <additional_attributes/>
@@ -70,22 +70,22 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>472</x>
-      <y>400</y>
-      <w>176</w>
-      <h>104</h>
+      <x>606</x>
+      <y>402</y>
+      <w>138</w>
+      <h>60</h>
     </coordinates>
     <panel_attributes>lt=.&gt;
 &lt;&lt;includes&gt;&gt;</panel_attributes>
-    <additional_attributes>10.0;10.0;200.0;110.0</additional_attributes>
+    <additional_attributes>10.0;10.0;210.0;80.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>40</x>
-      <y>328</y>
-      <w>256</w>
-      <h>112</h>
+      <x>282</x>
+      <y>348</y>
+      <w>192</w>
+      <h>84</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes>10.0;120.0;300.0;10.0</additional_attributes>
@@ -93,22 +93,22 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>432</x>
-      <y>328</y>
-      <w>224</w>
-      <h>176</h>
+      <x>576</x>
+      <y>348</y>
+      <w>174</w>
+      <h>114</h>
     </coordinates>
     <panel_attributes>lt=.&gt;
 &lt;&lt;includes&gt;&gt;</panel_attributes>
-    <additional_attributes>10.0;10.0;260.0;192.0</additional_attributes>
+    <additional_attributes>10.0;10.0;270.0;162.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>40</x>
-      <y>400</y>
-      <w>224</w>
-      <h>40</h>
+      <x>282</x>
+      <y>402</y>
+      <w>168</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes>10.0;30.0;260.0;10.0</additional_attributes>
@@ -116,10 +116,10 @@
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>272</x>
-      <y>448</y>
-      <w>184</w>
-      <h>64</h>
+      <x>438</x>
+      <y>492</y>
+      <w>138</w>
+      <h>48</h>
     </coordinates>
     <panel_attributes>Zapisanie dziecka na zajęcia</panel_attributes>
     <additional_attributes/>
@@ -127,21 +127,21 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>40</x>
-      <y>416</y>
-      <w>248</w>
-      <h>80</h>
+      <x>282</x>
+      <y>414</y>
+      <w>168</w>
+      <h>114</h>
     </coordinates>
     <panel_attributes/>
-    <additional_attributes>290.0;80.0;10.0;10.0</additional_attributes>
+    <additional_attributes>260.0;170.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>40</x>
-      <y>32</y>
-      <w>520</w>
-      <h>408</h>
+      <x>282</x>
+      <y>126</y>
+      <w>390</w>
+      <h>306</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes>630.0;10.0;260.0;150.0;10.0;490.0</additional_attributes>
@@ -149,10 +149,10 @@
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>824</x>
-      <y>664</y>
-      <w>200</w>
-      <h>80</h>
+      <x>870</x>
+      <y>600</y>
+      <w>150</w>
+      <h>60</h>
     </coordinates>
     <panel_attributes>sprawdzenie harmonogramu meczy</panel_attributes>
     <additional_attributes/>
@@ -160,10 +160,10 @@
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>496</x>
-      <y>768</y>
-      <w>192</w>
-      <h>96</h>
+      <x>624</x>
+      <y>678</y>
+      <w>144</w>
+      <h>72</h>
     </coordinates>
     <panel_attributes>Powołanie zawodnika</panel_attributes>
     <additional_attributes/>
@@ -171,22 +171,22 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>712</x>
-      <y>520</y>
-      <w>208</w>
-      <h>160</h>
+      <x>798</x>
+      <y>474</y>
+      <w>144</w>
+      <h>138</h>
     </coordinates>
     <panel_attributes>lt=.&gt;
 &lt;&lt;includes&gt;&gt;</panel_attributes>
-    <additional_attributes>240.0;180.0;10.0;10.0</additional_attributes>
+    <additional_attributes>220.0;210.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>248</x>
-      <y>528</y>
-      <w>224</w>
-      <h>72</h>
+      <x>420</x>
+      <y>582</y>
+      <w>168</w>
+      <h>54</h>
     </coordinates>
     <panel_attributes>Kontakt z trenerem</panel_attributes>
     <additional_attributes/>
@@ -194,10 +194,10 @@
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>280</x>
-      <y>248</y>
-      <w>168</w>
-      <h>56</h>
+      <x>462</x>
+      <y>288</y>
+      <w>126</w>
+      <h>42</h>
     </coordinates>
     <panel_attributes>sprawdzenie powiadomień</panel_attributes>
     <additional_attributes/>
@@ -205,10 +205,10 @@
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>264</x>
-      <y>184</y>
-      <w>200</w>
-      <h>56</h>
+      <x>450</x>
+      <y>240</y>
+      <w>150</w>
+      <h>42</h>
     </coordinates>
     <panel_attributes>Przegląd statystyk podopiecznego</panel_attributes>
     <additional_attributes/>
@@ -216,34 +216,34 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>440</x>
-      <y>272</y>
-      <w>232</w>
-      <h>216</h>
+      <x>582</x>
+      <y>306</y>
+      <w>180</w>
+      <h>144</h>
     </coordinates>
     <panel_attributes>lt=.&gt;
 &lt;&lt;includes&gt;&gt;</panel_attributes>
-    <additional_attributes>10.0;10.0;270.0;250.0</additional_attributes>
+    <additional_attributes>10.0;10.0;280.0;220.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>456</x>
-      <y>208</y>
-      <w>232</w>
-      <h>280</h>
+      <x>594</x>
+      <y>258</y>
+      <w>180</w>
+      <h>192</h>
     </coordinates>
     <panel_attributes>lt=.&gt;
 &lt;&lt;includes&gt;&gt;</panel_attributes>
-    <additional_attributes>10.0;10.0;270.0;325.0</additional_attributes>
+    <additional_attributes>10.0;10.0;280.0;295.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>40</x>
-      <y>272</y>
-      <w>256</w>
-      <h>168</h>
+      <x>282</x>
+      <y>306</y>
+      <w>192</w>
+      <h>126</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes>10.0;190.0;300.0;10.0</additional_attributes>
@@ -251,10 +251,10 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>40</x>
-      <y>208</y>
-      <w>240</w>
-      <h>232</h>
+      <x>282</x>
+      <y>258</y>
+      <w>180</w>
+      <h>174</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes>10.0;270.0;280.0;10.0</additional_attributes>
@@ -262,33 +262,33 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>40</x>
-      <y>416</y>
-      <w>224</w>
-      <h>160</h>
+      <x>282</x>
+      <y>414</y>
+      <w>150</w>
+      <h>204</h>
     </coordinates>
     <panel_attributes/>
-    <additional_attributes>260.0;180.0;10.0;10.0</additional_attributes>
+    <additional_attributes>230.0;320.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>464</x>
-      <y>488</y>
-      <w>184</w>
-      <h>88</h>
+      <x>582</x>
+      <y>468</y>
+      <w>168</w>
+      <h>150</h>
     </coordinates>
     <panel_attributes>lt=.&gt;
 &lt;&lt;includes&gt;&gt;</panel_attributes>
-    <additional_attributes>10.0;90.0;210.0;10.0</additional_attributes>
+    <additional_attributes>10.0;230.0;260.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>864</x>
-      <y>48</y>
-      <w>152</w>
-      <h>48</h>
+      <x>900</x>
+      <y>138</y>
+      <w>114</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>zarządzanie użytkownikami</panel_attributes>
     <additional_attributes/>
@@ -297,9 +297,9 @@
     <id>Relation</id>
     <coordinates>
       <x>1008</x>
-      <y>64</y>
-      <w>416</w>
-      <h>64</h>
+      <y>150</y>
+      <w>312</w>
+      <h>48</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes>10.0;10.0;500.0;60.0</additional_attributes>
@@ -307,22 +307,22 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>696</x>
-      <y>72</y>
-      <w>184</w>
-      <h>408</h>
+      <x>780</x>
+      <y>156</y>
+      <w>132</w>
+      <h>288</h>
     </coordinates>
     <panel_attributes>lt=.&gt;
 &lt;&lt;includes&gt;&gt;</panel_attributes>
-    <additional_attributes>210.0;10.0;10.0;490.0</additional_attributes>
+    <additional_attributes>200.0;10.0;10.0;460.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>800</x>
-      <y>56</y>
-      <w>80</w>
-      <h>56</h>
+      <x>852</x>
+      <y>144</y>
+      <w>60</w>
+      <h>42</h>
     </coordinates>
     <panel_attributes>lt=.&gt;
 &lt;&lt;extends&gt;&gt;</panel_attributes>
@@ -331,10 +331,10 @@
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>672</x>
-      <y>72</y>
-      <w>136</w>
-      <h>48</h>
+      <x>756</x>
+      <y>156</y>
+      <w>102</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>Przypisywanie 
 trenerów do grup</panel_attributes>
@@ -343,10 +343,10 @@ trenerów do grup</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1016</x>
-      <y>104</y>
-      <w>408</w>
-      <h>48</h>
+      <x>1014</x>
+      <y>180</y>
+      <w>306</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes>10.0;40.0;490.0;10.0</additional_attributes>
@@ -354,10 +354,10 @@ trenerów do grup</panel_attributes>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>880</x>
-      <y>112</y>
-      <w>144</w>
-      <h>48</h>
+      <x>912</x>
+      <y>186</y>
+      <w>108</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>Monitorowanie
 badań lekarskich</panel_attributes>
@@ -366,22 +366,22 @@ badań lekarskich</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>712</x>
-      <y>136</y>
-      <w>184</w>
-      <h>344</h>
+      <x>792</x>
+      <y>204</y>
+      <w>132</w>
+      <h>240</h>
     </coordinates>
     <panel_attributes>lt=.&gt;
 &lt;&lt;includes&gt;&gt;</panel_attributes>
-    <additional_attributes>210.0;10.0;10.0;410.0</additional_attributes>
+    <additional_attributes>200.0;10.0;10.0;380.0</additional_attributes>
   </element>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>896</x>
-      <y>176</y>
-      <w>144</w>
-      <h>48</h>
+      <x>924</x>
+      <y>234</y>
+      <w>108</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>Przegląd składek
 i finansów</panel_attributes>
@@ -390,10 +390,10 @@ i finansów</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1032</x>
-      <y>104</y>
-      <w>392</w>
-      <h>112</h>
+      <x>1026</x>
+      <y>180</y>
+      <w>294</w>
+      <h>84</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes>10.0;120.0;470.0;10.0</additional_attributes>
@@ -401,33 +401,33 @@ i finansów</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>728</x>
-      <y>200</y>
-      <w>184</w>
-      <h>288</h>
+      <x>804</x>
+      <y>252</y>
+      <w>132</w>
+      <h>198</h>
     </coordinates>
     <panel_attributes>lt=.&gt;
 &lt;&lt;includes&gt;&gt;</panel_attributes>
-    <additional_attributes>210.0;10.0;10.0;340.0</additional_attributes>
+    <additional_attributes>200.0;10.0;10.0;310.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1096</x>
-      <y>104</y>
-      <w>328</w>
-      <h>368</h>
+      <x>1116</x>
+      <y>180</y>
+      <w>204</w>
+      <h>252</h>
     </coordinates>
     <panel_attributes/>
-    <additional_attributes>10.0;440.0;390.0;10.0</additional_attributes>
+    <additional_attributes>10.0;400.0;320.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>920</x>
-      <y>248</y>
-      <w>144</w>
-      <h>48</h>
+      <x>942</x>
+      <y>288</y>
+      <w>108</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>Zarządzanie 
 magazynem sprzętu</panel_attributes>
@@ -436,10 +436,10 @@ magazynem sprzętu</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1048</x>
-      <y>104</y>
-      <w>376</w>
-      <h>176</h>
+      <x>1038</x>
+      <y>180</y>
+      <w>282</w>
+      <h>132</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes>10.0;200.0;450.0;10.0</additional_attributes>
@@ -447,22 +447,22 @@ magazynem sprzętu</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>736</x>
-      <y>264</y>
-      <w>200</w>
-      <h>232</h>
+      <x>810</x>
+      <y>300</y>
+      <w>144</w>
+      <h>156</h>
     </coordinates>
     <panel_attributes>lt=.&gt;
 &lt;&lt;includes&gt;&gt;</panel_attributes>
-    <additional_attributes>230.0;10.0;10.0;270.0</additional_attributes>
+    <additional_attributes>220.0;10.0;10.0;240.0</additional_attributes>
   </element>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>544</x>
-      <y>16</y>
-      <w>144</w>
-      <h>48</h>
+      <x>660</x>
+      <y>114</y>
+      <w>108</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>Sprawdzenie 
 kalendarza meczów</panel_attributes>
@@ -471,22 +471,22 @@ kalendarza meczów</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>608</x>
-      <y>56</y>
-      <w>112</w>
-      <h>424</h>
+      <x>708</x>
+      <y>144</y>
+      <w>90</w>
+      <h>300</h>
     </coordinates>
     <panel_attributes>lt=.&gt;
 &lt;&lt;includes&gt;&gt;</panel_attributes>
-    <additional_attributes>10.0;10.0;100.0;510.0</additional_attributes>
+    <additional_attributes>10.0;10.0;110.0;480.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>672</x>
-      <y>0</y>
-      <w>752</w>
-      <h>128</h>
+      <x>756</x>
+      <y>102</y>
+      <w>564</w>
+      <h>96</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes>10.0;40.0;390.0;10.0;920.0;140.0</additional_attributes>
@@ -494,10 +494,10 @@ kalendarza meczów</panel_attributes>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>888</x>
-      <y>520</y>
-      <w>176</w>
-      <h>48</h>
+      <x>978</x>
+      <y>456</y>
+      <w>132</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>Zapisywanie frekwencji</panel_attributes>
     <additional_attributes/>
@@ -505,33 +505,33 @@ kalendarza meczów</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>752</x>
-      <y>496</y>
-      <w>152</w>
-      <h>64</h>
+      <x>822</x>
+      <y>450</y>
+      <w>168</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>lt=.&gt;
 &lt;&lt;includes&gt;&gt;</panel_attributes>
-    <additional_attributes>170.0;60.0;10.0;10.0</additional_attributes>
+    <additional_attributes>260.0;40.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1096</x>
-      <y>448</y>
-      <w>240</w>
-      <h>312</h>
+      <x>1116</x>
+      <y>414</y>
+      <w>138</w>
+      <h>258</h>
     </coordinates>
     <panel_attributes>lt=-</panel_attributes>
-    <additional_attributes>10.0;10.0;280.0;370.0</additional_attributes>
+    <additional_attributes>10.0;10.0;210.0;410.0</additional_attributes>
   </element>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>880</x>
-      <y>584</y>
-      <w>176</w>
-      <h>48</h>
+      <x>966</x>
+      <y>498</y>
+      <w>132</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>Odwołanie treningu</panel_attributes>
     <additional_attributes/>
@@ -539,33 +539,33 @@ kalendarza meczów</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1048</x>
-      <y>600</y>
-      <w>288</w>
-      <h>160</h>
+      <x>1092</x>
+      <y>510</y>
+      <w>162</w>
+      <h>162</h>
     </coordinates>
     <panel_attributes>lt=-</panel_attributes>
-    <additional_attributes>10.0;10.0;340.0;180.0</additional_attributes>
+    <additional_attributes>10.0;10.0;250.0;250.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>728</x>
-      <y>520</y>
-      <w>168</w>
-      <h>104</h>
+      <x>822</x>
+      <y>456</y>
+      <w>156</w>
+      <h>72</h>
     </coordinates>
     <panel_attributes>lt=.&gt;
 &lt;&lt;includes&gt;&gt;</panel_attributes>
-    <additional_attributes>190.0;110.0;10.0;10.0</additional_attributes>
+    <additional_attributes>240.0;100.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>576</x>
-      <y>696</y>
-      <w>176</w>
-      <h>48</h>
+      <x>684</x>
+      <y>624</y>
+      <w>132</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>tworzenie meczy</panel_attributes>
     <additional_attributes/>
@@ -573,10 +573,10 @@ kalendarza meczów</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1016</x>
-      <y>696</y>
-      <w>320</w>
-      <h>64</h>
+      <x>1014</x>
+      <y>624</y>
+      <w>240</w>
+      <h>48</h>
     </coordinates>
     <panel_attributes>lt=-</panel_attributes>
     <additional_attributes>10.0;10.0;380.0;60.0</additional_attributes>
@@ -584,10 +584,10 @@ kalendarza meczów</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>744</x>
-      <y>688</y>
-      <w>96</w>
-      <h>40</h>
+      <x>810</x>
+      <y>618</y>
+      <w>72</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>lt=.&gt;
 &lt;&lt;extends&gt;&gt;</panel_attributes>
@@ -596,21 +596,21 @@ kalendarza meczów</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1056</x>
-      <y>536</y>
-      <w>280</w>
-      <h>224</h>
+      <x>1104</x>
+      <y>468</y>
+      <w>150</w>
+      <h>204</h>
     </coordinates>
     <panel_attributes>lt=-</panel_attributes>
-    <additional_attributes>10.0;10.0;330.0;260.0</additional_attributes>
+    <additional_attributes>10.0;10.0;230.0;320.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>680</x>
-      <y>736</y>
-      <w>656</w>
-      <h>96</h>
+      <x>762</x>
+      <y>654</y>
+      <w>492</w>
+      <h>72</h>
     </coordinates>
     <panel_attributes>lt=-</panel_attributes>
     <additional_attributes>10.0;100.0;800.0;10.0</additional_attributes>
@@ -618,10 +618,10 @@ kalendarza meczów</panel_attributes>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>896</x>
-      <y>432</y>
-      <w>208</w>
-      <h>48</h>
+      <x>966</x>
+      <y>402</y>
+      <w>156</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>Przegląd zaawansowanych statystyk</panel_attributes>
     <additional_attributes/>
@@ -629,25 +629,58 @@ kalendarza meczów</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>752</x>
-      <y>448</y>
-      <w>160</w>
-      <h>64</h>
+      <x>822</x>
+      <y>414</y>
+      <w>156</w>
+      <h>54</h>
     </coordinates>
     <panel_attributes>lt=.&gt;
 &lt;&lt;includes&gt;&gt;</panel_attributes>
-    <additional_attributes>180.0;10.0;10.0;60.0</additional_attributes>
+    <additional_attributes>240.0;10.0;10.0;70.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>496</x>
-      <y>520</y>
-      <w>184</w>
-      <h>288</h>
+      <x>624</x>
+      <y>474</y>
+      <w>138</w>
+      <h>234</h>
     </coordinates>
     <panel_attributes>lt=.&gt;
 &lt;&lt;includes&gt;&gt;</panel_attributes>
-    <additional_attributes>10.0;340.0;210.0;10.0</additional_attributes>
+    <additional_attributes>10.0;370.0;210.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>282</x>
+      <y>414</y>
+      <w>462</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;10.0;750.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>816</x>
+      <y>180</y>
+      <w>504</w>
+      <h>282</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;450.0;820.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>816</x>
+      <y>462</y>
+      <w>438</w>
+      <h>210</h>
+    </coordinates>
+    <panel_attributes>lt=-</panel_attributes>
+    <additional_attributes>10.0;10.0;710.0;330.0</additional_attributes>
   </element>
 </diagram>
