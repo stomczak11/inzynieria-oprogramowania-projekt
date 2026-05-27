@@ -1,37 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="15.1">
-  <help_text>// Uncomment the following line to change the fontsize and font:
-fontsize=10
-// fontfamily=SansSerif //possible: SansSerif,Serif,Monospaced
-
-
-//////////////////////////////////////////////////////////////////////////////////////////////
-// Welcome to UMLet!
-//
-// Double-click on elements to add them to the diagram, or to copy them
-// Edit elements by modifying the text in this panel
-// Hold Ctrl to select multiple elements
-// Use Ctrl+mouse to select via lasso
-//
-// Use +/- or Ctrl+mouse wheel to zoom
-// Drag a whole relation at its central square icon
-//
-// Press Ctrl+C to copy the whole diagram to the system clipboard (then just paste it to, eg, Word)
-// Edit the files in the "palettes" directory to create your own element palettes
-//
-// Select "Custom Elements &gt; New..." to create new element types
-//////////////////////////////////////////////////////////////////////////////////////////////
-
-
-// This text will be stored with each diagram;  use it for notes.</help_text>
-  <zoom_level>9</zoom_level>
+  <zoom_level>7</zoom_level>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>378</x>
-      <y>27</y>
-      <w>18</w>
-      <h>18</h>
+      <x>329</x>
+      <y>21</y>
+      <w>20</w>
+      <h>20</h>
     </coordinates>
     <panel_attributes>type=initial</panel_attributes>
     <additional_attributes/>
@@ -39,146 +15,198 @@ fontsize=10
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>297</x>
-      <y>117</y>
-      <w>180</w>
-      <h>45</h>
+      <x>252</x>
+      <y>98</y>
+      <w>175</w>
+      <h>44</h>
     </coordinates>
-    <panel_attributes>Nieopłacona
---</panel_attributes>
+    <panel_attributes>Nieopłacona</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>261</x>
-      <y>270</y>
-      <w>252</w>
-      <h>45</h>
+      <x>616</x>
+      <y>98</y>
+      <w>150</w>
+      <h>44</h>
     </coordinates>
-    <panel_attributes>WeryfikacjaPłatności
---</panel_attributes>
+    <panel_attributes>Zaległa</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>297</x>
-      <y>468</y>
-      <w>180</w>
-      <h>45</h>
+      <x>231</x>
+      <y>294</y>
+      <w>215</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>WeryfikacjaPłatności</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>266</x>
+      <y>476</y>
+      <w>150</w>
+      <h>44</h>
     </coordinates>
     <panel_attributes>Opłacona</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
-    <id>UMLState</id>
-    <coordinates>
-      <x>630</x>
-      <y>117</y>
-      <w>180</w>
-      <h>45</h>
-    </coordinates>
-    <panel_attributes>Zaległa 
---</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>378</x>
-      <y>594</y>
-      <w>18</w>
-      <h>18</h>
+      <x>329</x>
+      <y>588</y>
+      <w>20</w>
+      <h>20</h>
     </coordinates>
     <panel_attributes>type=final</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>63</x>
+      <y>28</y>
+      <w>180</w>
+      <h>62</h>
+    </coordinates>
+    <panel_attributes>W tym stanie składka została
+naliczona na bieżący miesiąc;
+termin płatności jeszcze trwa
+bg=white</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>784</x>
+      <y>91</y>
+      <w>195</w>
+      <h>62</h>
+    </coordinates>
+    <panel_attributes>W tym stanie minął termin płatności,
+a składka nie została opłacona –
+jest widoczna jako zaległość
+bg=white</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>462</x>
+      <y>343</y>
+      <w>205</w>
+      <h>62</h>
+    </coordinates>
+    <panel_attributes>W tym stanie opiekun zlecił płatność,
+a system weryfikuje transakcję
+w bramce płatniczej
+bg=white</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>434</x>
+      <y>476</y>
+      <w>195</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>W tym stanie płatność została
+zaksięgowana, a składka rozliczona
+bg=white</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
     <id>Relation</id>
     <coordinates>
-      <x>378</x>
-      <y>45</y>
-      <w>99</w>
-      <h>90</h>
+      <x>329</x>
+      <y>35</y>
+      <w>98</w>
+      <h>77</h>
     </coordinates>
     <panel_attributes>lt=-&gt;
 nowy miesiąc –
 tworzenie składki</panel_attributes>
-    <additional_attributes>14.3;14.3;14.3;75.7</additional_attributes>
+    <additional_attributes>14.3;14.3;14.3;92.9</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>378</x>
-      <y>162</y>
-      <w>90</w>
-      <h>126</h>
-    </coordinates>
-    <panel_attributes>lt=-&gt;
-opłaćSkładkę()</panel_attributes>
-    <additional_attributes>14.3;14.3;14.3;122.9</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>378</x>
-      <y>306</y>
-      <w>117</w>
-      <h>180</h>
-    </coordinates>
-    <panel_attributes>lt=-&gt;
-pozytywna weryfikacja
-zaksiegujWplate()</panel_attributes>
-    <additional_attributes>14.3;14.3;14.3;177.1</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>378</x>
-      <y>504</y>
-      <w>90</w>
-      <h>108</h>
-    </coordinates>
-    <panel_attributes>lt=-&gt;
-zarchiwizowana</panel_attributes>
-    <additional_attributes>14.3;14.3;14.3;100.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>468</x>
-      <y>135</y>
-      <w>180</w>
-      <h>36</h>
+      <x>420</x>
+      <y>105</y>
+      <w>210</w>
+      <h>35</h>
     </coordinates>
     <panel_attributes>lt=-&gt;
 upłynął termin</panel_attributes>
-    <additional_attributes>14.3;14.3;175.7;14.3</additional_attributes>
+    <additional_attributes>14.3;24.3;278.6;24.3</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>162</x>
-      <y>135</y>
-      <w>144</w>
-      <h>162</h>
+      <x>329</x>
+      <y>133</y>
+      <w>91</w>
+      <h>182</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+opłaćSkładkę()</panel_attributes>
+    <additional_attributes>14.3;14.3;14.3;237.1</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>441</x>
+      <y>133</y>
+      <w>280</w>
+      <h>203</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+uregulowanie zaległości</panel_attributes>
+    <additional_attributes>357.1;14.3;357.1;268.6;14.3;268.6</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>161</x>
+      <y>112</y>
+      <w>126</w>
+      <h>224</h>
     </coordinates>
     <panel_attributes>lt=-&gt;
 odrzucenie / anulowanie
 (powrót do poprz. stanu)</panel_attributes>
-    <additional_attributes>111.4;160.0;14.299999999999997;130.0;14.299999999999997;14.3;144.3;14.3</additional_attributes>
+    <additional_attributes>100.0;300.0;14.3;300.0;14.3;14.3;128.6;14.3</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>504</x>
-      <y>153</y>
-      <w>279</w>
-      <h>162</h>
+      <x>329</x>
+      <y>329</y>
+      <w>119</w>
+      <h>161</h>
     </coordinates>
     <panel_attributes>lt=-&gt;
-uregulowanie zaległości</panel_attributes>
-    <additional_attributes>262.9;14.3;292.9;161.4;14.3;161.4</additional_attributes>
+pozytywna weryfikacja
+zaksiegujWplate()</panel_attributes>
+    <additional_attributes>14.3;14.3;14.3;208.6</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>329</x>
+      <y>511</y>
+      <w>91</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+zarchiwizowana</panel_attributes>
+    <additional_attributes>14.3;14.3;14.3;108.6</additional_attributes>
   </element>
 </diagram>
